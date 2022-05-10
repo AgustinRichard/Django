@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>listado</title>
+</head>
+
+<body>
+<h1>Lista de mascotas<h1>
+    <table>
+    {% for elemento in lista %} 
+        <tr>
+            <td>
+        {{ elemento }}
+        </td>
+        </tr>
+    {% endfor %}
+    </table>
+</body>
+
+</html>
