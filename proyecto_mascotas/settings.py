@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_mascotas.apps.AppMascotasConfig',
-    'articulos'
+    'articulos.apps.ArticulosConfig'
 ]
 
 MIDDLEWARE = [
